@@ -5421,7 +5421,15 @@ select:focus {
 .header-upper-left-style4 .logo {
     position: relative;
     display: block;
-    padding: 17px 0;
+    padding: 10px 0;
+    gap: 15px;
+}
+.header-upper-left-style4 .logo .imtof{
+    max-width: 135px;
+}
+.header-upper-left-style4 .logo .hsg{
+    max-width: 90px;
+    margin: 10px 0;
 }
 .header-upper-left-style4 .logo a{
     position: relative;
