@@ -635,7 +635,7 @@ li{
     background-color:#ffffff; 
     background-position:center center; 
     background-repeat:no-repeat; 
-    background-image:url(../images/icon/preloader.gif);
+    background-image:url(../images/icon/bx_loader.gif);
 }
 .preloader.style-two {
     background-image: url(../images/icon/preloader-1.gif);
@@ -1740,7 +1740,7 @@ select:focus {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #4d4d4db9;
+    background-color: #464646b9;
 }
 
 .main-slider.style1 .slide-content .text{
@@ -1761,7 +1761,9 @@ select:focus {
     text-transform: none;
     font-family: 'Lora', serif;
 }
-.main-slider .slide-content .btn-box{}
+.main-slider .slide-content .btn-box{
+    gap: 15px;
+}
 .main-slider .slide-content .btn-box a{
     position: relative;
     display: inline-block;
@@ -8396,7 +8398,7 @@ select:focus {
     Google Map Area Css
 =============================================
 ***/
-.google-map-area{
+.<p>2nd - 6th April 2026 <br> 9.30 am–6.00 pm</p>p-area{
     position: relative;
     display: block;
     background: #ffffff;
@@ -8511,7 +8513,7 @@ select:focus {
 
 
 
-.google-map-area .map-outer{
+.<p>2nd - 6th April 2026 <br> 9.30 am–6.00 pm</p>p-area .map-outer{
     position: relative;
     display: block;
     padding-right: 70px;
