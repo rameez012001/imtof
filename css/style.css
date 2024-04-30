@@ -1843,12 +1843,7 @@ select:focus {
 .intro-box a{
     
 }
-.aboutus h1{
-    margin: 20px 0 15px;
-}
-.aboutus p{
-    text-align: justify;
-}
+
 .plan-your-visit {
     position: absolute;
     display: block;
@@ -2379,7 +2374,7 @@ select:focus {
     right: 15px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgba(59, 109, 153, 0.7);    
+    background-color: rgba(47, 56, 64, 0.90);    
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
@@ -5458,7 +5453,7 @@ select:focus {
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
-    padding: 24px 10px 26px;
+    padding: 24px 20px 26px;
     transition: all 500ms ease;
     opacity: 1;
     z-index: 1;
