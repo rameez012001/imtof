@@ -3375,7 +3375,7 @@ select:focus {
 .about-style1-area{
     position: relative;
     display: block;
-    padding: 100px 0 0px;
+    padding: 50px 0 50px;
 }
 
 .about-style1-left-content {
@@ -5476,7 +5476,7 @@ select:focus {
     left: 0;
     bottom: -10px;
     right: 0;
-    background: #e4b33d;
+    background: var(--orange);
     content: "";
     z-index: -1;
     transition: all 200ms linear;
