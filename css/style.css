@@ -115,9 +115,7 @@ h3 {
     line-height: 28px;
     font-weight: 600;
 }
-h4 {
 
-}
 a,
 a:hover,
 a:active,
@@ -396,8 +394,7 @@ li{
 
 
 /*___ owl Nav Dot Style _____*/
-.owl-nav-style-one{}
-.owl-nav-style-one .owl-controls { }
+
 .owl-nav-style-one.owl-theme .owl-stage-outer {
     position: relative;
     display: block;
@@ -426,9 +423,7 @@ li{
     border: 1px solid #d1d1d1;    
     transition: all 700ms ease 0s;
 }
-.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
-   
-}
+
 .owl-nav-style-one.owl-theme .owl-nav .owl-next {
     margin-left: 10px;
 }
@@ -436,10 +431,6 @@ li{
     color: #000000;
 }
 
-
-
-.owl-nav-style-two{}
-.owl-nav-style-two .owl-controls { }
 .owl-nav-style-two.owl-theme .owl-nav [class*="owl-"] {
     background: #fff none repeat scroll 0 0;
     border-radius: 0%;
@@ -673,7 +664,7 @@ li{
 	animation: pulse 2s infinite;
 	z-index: 999999999;
 }
-.scroll-top span {}
+
 .scroll-top:after {
 	position: absolute;
 	z-index: -1;
@@ -1842,9 +1833,7 @@ select:focus {
     font-family: 'Lora', serif;
     margin: 25px 0 50px;
 }
-.intro-box a{
-    
-}
+
 .aboutus h1{
     margin: 20px 0 15px;
 }
@@ -2286,7 +2275,7 @@ select:focus {
     font-size: 14px;
     font-weight: 500;
 }
-.single-event-box .title-holder .bottom .button{}
+
 .single-event-box .title-holder .bottom .button a{
     color: var(--dark-blue);
     font-size: 18px;
@@ -2652,7 +2641,6 @@ select:focus {
     font-weight: 400; 
     margin: 0 0 22px;
 }
-.subscribe-title span{}
 
 .subscribe-area .subscribe-box {
     position: relative;
@@ -2917,7 +2905,7 @@ select:focus {
 .footer-bottom-left .text p a{
     color: #ffffff;    
 }
-.footer-bottom-right .copyright-text{}
+
 .footer-bottom-right .copyright-text p{
     color: #ffffff;
     font-size: 18px;
@@ -2934,10 +2922,6 @@ select:focus {
     Main Header Style2 Css
 =============================================
 ***/
-.main-header-style2{}
-.header-upper-style2{
-    
-}
 
 .header-upper-left-style2 {
     position: relative;
@@ -3682,7 +3666,7 @@ select:focus {
     position: relative;
     display: block;
 }
-.single-event-box-style2 .text-holder .button a{}
+
 .single-event-box-style2 .text-holder .button a.marlft{
     margin-left: 15px;
 }
@@ -3728,7 +3712,7 @@ select:focus {
     background: #160f0a;
     padding: 120px 0 120px;
 }
-.art-style2-area .sec-title{}
+
 .art-style2-area .sec-title p{
     color: var(--orange);
 }
@@ -3803,7 +3787,6 @@ select:focus {
     color: var(--orange);    
 }
 
-.art-carousel {}
 .art-carousel.owl-nav-style-one.owl-theme .owl-stage-outer {
     padding-bottom: 70px;
 }
@@ -3997,7 +3980,6 @@ select:focus {
     font-weight: 700;
     margin: 0 0 5px;
 }
-.single-testimonial-style1 .client-info .title-box span{}
 
 .testimonial-carousel.owl-carousel.owl-theme.owl-nav-style-one {
     max-width: 500px;
@@ -4703,7 +4685,6 @@ select:focus {
     position: relative;
     display: block;
 }
-.single-event-box-style3 .title-holder .button a{}
 
 .single-event-box-style3 .img-holder{
     position: relative;
@@ -4840,8 +4821,6 @@ select:focus {
     font-weight: 400;
     margin: 12px 0 46px;
 }
-.single-testimonial-style2 .title-box .review-box{}
-
 .single-testimonial-style2 .text {
     position: relative;
     display: block;
@@ -4920,7 +4899,6 @@ select:focus {
     transition: all 900ms linear;
     transition-delay: 0.4s;
 }
-.art-style3-area .single-art-box-style2:hover .text-holder h3 a{}
 .art-style3-area .single-art-box-style2 .text-holder {
     position: relative;
     display: block;
@@ -4981,7 +4959,6 @@ select:focus {
     padding: 120px 0 100px;
     background: #ffffff;
 }
-.latest-blog-style3-area .top{}
 .latest-blog-style3-area .top .sec-title {
     padding-bottom: 42px;
 }
@@ -5167,7 +5144,7 @@ select:focus {
     position: relative;
     display: block;
 }
-.single-footer-widget-style2 .our-company-info{}
+
 .single-footer-widget-style2 .our-company-info .footer-logo{
     position: relative;
     display: block;
@@ -5233,7 +5210,7 @@ select:focus {
 .single-footer-widget-style2 .our-company-info ul li .title h3 a{
     color: #ffffff;    
 }
-.single-footer-widget-style2 .our-company-info .text .contact-button{}
+
 .single-footer-widget-style2 .our-company-info .text .contact-button a{
     color: #ffffff;
     border-color: #ffffff;
@@ -5404,8 +5381,6 @@ select:focus {
     position: relative;
     display: block;    
 }
-.header-top-right-style3 .header-social-links{}
-
 
 .header-upper-style4{
     position: relative;
@@ -6350,7 +6325,6 @@ select:focus {
     text-transform: capitalize;
 }
 
-.single-footer-widget-style3 .our-contact-info-box{}
 .single-footer-widget-style3 .our-contact-info-box .footer-logo{
     position: relative;
     display: block;
@@ -6533,7 +6507,6 @@ select:focus {
     font-weight: 500;
     margin: 0;
 }
-.footer-bottom-style4 .footer-social-links{}
 .footer-bottom-style4 .footer-social-links .social-links-style1 li {
     margin-right: 20px;
 }
@@ -6801,7 +6774,7 @@ select:focus {
     transition: all 900ms linear;
     transition-delay: 0.4s;
 }
-.gallery-area .single-art-box-style2:hover .text-holder h3 a{}
+
 .gallery-area .single-art-box-style2 .text-holder {
     position: relative;
     display: block;
@@ -6897,10 +6870,6 @@ select:focus {
     font-weight: 400;
     margin: -15px 0 26px;
 }
-.events-single-text-box p{
-    
-}
-
 .events-single-info-box {
     position: relative;
     display: block;
@@ -7426,7 +7395,7 @@ select:focus {
     text-transform: capitalize;
     font-family: 'Lora', serif;    
 }
-.blog-single-area .tag-box .right .sociallinks-style-two li{}
+
 .blog-single-area .tag-box .right .sociallinks-style-two li a i {
     color: var(--dark-blue);
 }
@@ -7490,7 +7459,7 @@ select:focus {
     flex-wrap: wrap;
     align-items: center;
 }
-.blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name{}
+
 .blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name h3 {
     color: var(--dark-blue);
     font-size: 20px;
@@ -7556,7 +7525,7 @@ select:focus {
     line-height: 40px;
     font-weight: 400;
 }
-.add-comment-box #add-comment-form {}
+
 .add-comment-box #add-comment-form input[type="text"],
 .add-comment-box #add-comment-form input[type="email"],
 .add-comment-box #add-comment-form textarea{
@@ -7595,13 +7564,6 @@ select:focus {
     padding: 21px 40px 23px;
    
 }
-.add-comment-box #add-comment-form button:hover{}
-
-
-
-
-
-
 
 #blog-area .sidebar-wrapper {
     position: relative;
@@ -7790,8 +7752,6 @@ select:focus {
     color: #e4b33d;
 }
 
-
-.recent-post-carousel {}
 .recent-post-carousel.owl-nav-style-one.owl-theme .owl-stage-outer {
     padding-bottom: 40px;
 }
@@ -7990,7 +7950,6 @@ select:focus {
 .visit-day-select .tab-btns li:first-child{
     border: none;
 }
-.visit-day-select .tab-btns li:last-child{}
 
 .visit-day-select .tab-btns li span {
     position: relative;
@@ -8064,7 +8023,7 @@ select:focus {
 .select-tickets-box ul li:last-child{
     margin-bottom: 0;
 }
-.select-tickets-box ul li .left{}
+
 .select-tickets-box ul li .left h4{
     color: var(--dark-blue);
     font-size: 18px;
@@ -8220,7 +8179,7 @@ select:focus {
     margin-top: 100px;
     padding-top: 23px;
 }
-.order-total .left{}
+
 .order-total .left p{
     color: var(--dark-blue);
     font-size: 24px;
@@ -8230,7 +8189,7 @@ select:focus {
     margin: 0;
     font-family: 'Lora', serif;
 }
-.order-total .right{}
+
 .order-total .right p{
     color: var(--dark-blue);
     font-size: 24px;
@@ -8398,7 +8357,7 @@ select:focus {
     Google Map Area Css
 =============================================
 ***/
-.<p>2nd - 6th April 2026 <br> 9.30 am–6.00 pm</p>p-area{
+.p-area{
     position: relative;
     display: block;
     background: #ffffff;
@@ -8482,7 +8441,7 @@ select:focus {
 .contactpage-company-info-box .social-links .title-follow {
     position: relative;
     display: inline-block;
-    float: left;
+    /* float: left; */
     color: var(--dark-blue);
     font-size: 24px;
     line-height: 40px;
@@ -8492,7 +8451,7 @@ select:focus {
 .contactpage-company-info-box .social-links .social-links-style1 {
     position: relative;
     display: inline-block;
-    float: left;
+    /* float: left; */
     margin: 0;
     margin-left: 20px;
 }
@@ -8513,7 +8472,7 @@ select:focus {
 
 
 
-.<p>2nd - 6th April 2026 <br> 9.30 am–6.00 pm</p>p-area .map-outer{
+.p-area .map-outer{
     position: relative;
     display: block;
     padding-right: 70px;
