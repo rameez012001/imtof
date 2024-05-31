@@ -8644,3 +8644,13 @@ select:focus {
     color: #fff;
     border-color: #43c3ea;
 }
+
+/* Brief Report */
+#brief_report li{
+    list-style: disc;
+    margin-left: 10px ;
+}
+
+#brief_report li,#brief_report p{
+    color: var(--dark-blue);
+}
