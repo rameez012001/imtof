@@ -720,14 +720,14 @@ li{
 #contactNew ul li a{
     color: var(--dark-blue);
 }
+#contactNew .header-top ul li a,#contactNew .header-top-left-style3 .login-register-box .icon-holder span:before{
+    color: #fff;
+}
 #contactNew{
-    background-color: rgba(157, 157, 157, 0.522);
+    background-color: rgba(247, 247, 247, 0.522);
+    padding-bottom: 10px;
+    box-shadow: 0 0px 1px #000;
 }
-
-#contactNew .header-top-left-style3 .login-register-box .icon-holder span:before {
-    color: var(--dark-blue);
-}
-
 
 /* Form validation styles */
 input:focus,
@@ -1329,6 +1329,11 @@ select:focus {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+.header-upper .outer-background {
+    background: rgba(219, 219, 219, 0.8);
+}
+
 .header-upper-left {
     position: relative;
     display: block;
