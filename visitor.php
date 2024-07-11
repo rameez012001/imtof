@@ -123,8 +123,6 @@ body {
             margin-top: 16px;
         }
         </style>
-
-</head>
 <body>
 
 
@@ -157,35 +155,35 @@ body {
 <div class="container">
 
 <div class="header">
-  <h2>Visitor Registration Form</h2>
+  <h2>观众登记表</h2>
 </div>
 <br><br>
   <form id="myForm" action="forms/send_visit_form.php" method="post" onsubmit="return validateForm()">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name.." required>
+    <label for="name">姓名</label>
+    <input type="text" id="name" name="name" placeholder="你的名字.." required>
 
-    <label for="designation">Designation</label>
-    <input type="text" id="designation" name="desi" placeholder="Your designation.." required>
+    <label for="designation">指定</label>
+    <input type="text" id="designation" name="desi" placeholder="您的指定.." required>
 
-    <label for="company">Company Name</label>
-    <input type="text" id="company" name="comp_name" placeholder="Your company name.." required>
+    <label for="company">公司名称</label>
+    <input type="text" id="company" name="comp_name" placeholder="您的公司名称.." required>
 
-    <label for="phone">Mobile</label>
-    <input type="tel" id="phone" name="mobile" placeholder="Your phone number.." pattern="(\+[0-9]{1,3})?[0-9]{10,14}" required>
+    <label for="phone">移动的</label>
+    <input type="tel" id="phone" name="mobile" placeholder="你的电话号码.." pattern="(\+[0-9]{1,3})?[0-9]{10,14}" required>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email.." required>
+    <label for="email">电子邮件</label>
+    <input type="email" id="email" name="email" placeholder="你的邮件.." required>
 <br>
-    <label style="color:#143497;" for="products"><b>Interested Products Categories</b></label><br><br>
-    <input type="checkbox" id="product1" name="cat1" value="Machine Tools">
-    <label for="product1">Machine Tools</label>
-    <input type="checkbox" id="product2" name="cat2" value="Robotics & Automation">
-    <label for="product2">Robotics & Automation</label>
+    <label style="color:#143497;" for="products"><b>感兴趣的产品类别</b></label><br><br>
+    <input type="checkbox" id="product1" name="cat1" value="机械工具">
+    <label for="product1">机械工具</label>
+    <input type="checkbox" id="product2" name="cat2" value="机器人与自动化">
+    <label for="product2">机器人与自动化</label>
 
-    <input type="checkbox" id="product3" name="cat3" value="Metrology">
-    <label for="product3">Metrology</label>
-    <input type="checkbox" id="product4" name="cat4" value="Others">
-    <label for="product4">Others</label>
+    <input type="checkbox" id="product3" name="cat3" value="计量学">
+    <label for="product3">计量学</label>
+    <input type="checkbox" id="product4" name="cat4" value="其他的">
+    <label for="product4">其他的</label>
 <br><br>
 
 		<div class="input-container" style="display:none;"> 
