@@ -2315,9 +2315,16 @@
     -ms-flex-order: 1;
     order: 1;
 } 
-    
-    
+}
 
+@media (max-width:500px){
+
+    .header-upper-left .logo .imtof{
+        max-width: 80px;
+    }
+    .header-upper-left .logo .hsg{
+        max-width: 60px;
+    }
 }
 
 @media (max-width:400px){
