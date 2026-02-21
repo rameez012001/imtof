@@ -844,19 +844,131 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-    
+.btn-one {
+    line-height: 10px;
+}
+.intro-box .inner-content p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 25px 0;
+}
+
+.art-container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.single-art-box{
+    margin-bottom: 25px;
+}
+.art-area{
+    padding: 40px 0;
+}
+.art-area .row {
+  /* gap: 25px; */
+}
+.carousel-area {
+    margin: 30px 0 0;
+}
+.carousel-area .owl-nav{
+    display: none;
+}
+
+.exhibitions-area{
+  padding: 40px 0;
+}
+
+.fact-counter-area{
+  padding: 40px 0 20px;
+}
+
+.single-exhibition-box {
+    margin-bottom: 15px;
+}
+.single-exhibition-box .text-holder {
+    padding-top: 10px;
+}
+
+.single-exhibition-box .text-holder h2{
+    margin: 8px 0;
+    line-height: 1;
+    font-size: 14px;
+}
+.single-fact-counter .title h3{
+    font-size: 14px;
+    line-height: 20px;
+}
+.single-fact-counter .count-box h1 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.single-fact-counter .count-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.latest-blog-area{
+    padding: 30px 0 0;
+}
+
+.latest-blog-title .sec-title{
+    padding-bottom: 17px;
+}
+
+.single-blog-post .text-holder .blog-title{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.subscribe-title h1{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.subscribe-area .subscribe-form input[type="email"],.subscribe-area .subscribe-form button {
+    height: 40px;
+}
+.subscribe-area .subscribe-form button {
+    line-height: 0;
+}
+
+.footer-area {
+    padding: 20px 0 0;
+}
+
+.single-footer-widget .title {
+    padding-bottom: 20px;
+}
+
+.single-footer-widget .social-links li {
+    margin-bottom: 15px;
+}
+
+.single-footer-widget .quick-links li{
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+}
+
+.events-area{
+    padding: 40px 0;
+}
+
 .sec-title {
-    padding-bottom: 54px;
+    padding-bottom: 30px;
 }    
 .sec-title p br{
     display: none;
 } 
 .sec-title .big-title {
-    padding: 19px 0 0;
+    padding: 10px 0 0;
 }    
 .sec-title .big-title h1 {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 18px;
+    line-height: 22px;
 }    
 .sec-title .big-title h1 br{
     display: none;
@@ -901,7 +1013,7 @@
     
 /*** Intro Area Css ***/ 
 .intro-box {
-    padding: 67px 20px 70px;
+    padding: 30px 20px;
 }    
 .plan-your-visit {
     position: static;
@@ -912,20 +1024,30 @@
     right: 0;
     max-width: 370px;
     width: 100%;
-    padding: 26px 20px 26px;
+    padding: 26px 20px;
     border-radius: 20px;
-    margin-top: 50px;
-}  
+    margin-top: 25px;
+}
+.plan-your-visit ul {
+    padding-top: 15px;
+}   
 .plan-your-visit ul li {
     padding-left: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 } 
 .plan-your-visit ul li .title-holder p br{
     display: none;
 }    
+
+.plan-your-visit ul li .title-holder h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
   
 /*** Events Area Css ***/ 
 .events-area .sec-title {
-    padding-bottom: 115px;
+    padding-bottom: 80px;
 }    
 .single-event-box .title-holder {
     margin-left: 10px;
@@ -936,8 +1058,8 @@
     padding: 34px 20px 34px;
 }   
 .single-event-box .title-holder .inner h3 {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 28px;
 }    
 .single-event-box .title-holder .bottom {
     flex-direction: column;
@@ -953,15 +1075,20 @@
 /*** Art Area Css ***/ 
 .art-area .top {
     flex-direction: row;
-    justify-content: end;
+    /* justify-content: end; */
     align-content: flex-end;
 }  
 .art-area .top .sec-title {
-    padding-bottom: 42px;
+    padding-bottom: 20px;
 }   
 .art-area .top .view-more-button {
     margin-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+}
+.art-area .top .view-more-button .btn-one {
+  font-size: 16px;
+  line-height: 0px;
+  padding: 20px 39px 22px;
 }
 
 /*** Latest Blog Area Css ***/     
@@ -979,7 +1106,7 @@
     
 /*** Subscribe Area Css ***/ 
 .subscribe-area {
-    padding: 90px 0 100px;
+    padding: 40px 0;
 }    
 .subscribe-title {
     text-align: center;
@@ -997,10 +1124,10 @@
     
 /*** Footer Area Css ***/ 
 .single-footer-widget.pdtop50{
-    padding-top: 50px;
+    padding-top: 25px;
 }  
 .single-footer-widget.marbtm50{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }    
 .single-footer-widget.opening-hours-box {
     margin-left: 0;
