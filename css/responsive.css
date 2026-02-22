@@ -1251,7 +1251,11 @@
 }  
 .about-style1-content .inner-content .bottom-box .button {
     margin-bottom: 25px;
-}    
+}   
+
+.about-style1-content {
+  padding-top: 30px;
+}
     
     
     

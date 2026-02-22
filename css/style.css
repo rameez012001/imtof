@@ -8743,3 +8743,30 @@ top: 0px !important;
 footer .imtof-dates span{
     color: #fff;
 }
+
+.imtof_custom{
+    color: #160f0a;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 10px 43px;
+}
+
+.imtof_custom .profile_container img{
+    border-radius: 100px;
+}
+
+.imtof_custom table{
+    margin: 0 10px;
+}
+
+.imtof_custom thead{
+    background-color: #90b64a;
+    color: #fff;
+}
+
+#blentrix li{
+    list-style: disc;
+    font-size: 20px;
+    color: #064974;
+}
