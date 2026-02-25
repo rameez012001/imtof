@@ -28,6 +28,7 @@
 "use strict";
 
 
+
 // dropdown menu
 var mobileWidth = 992;
 var navcollapse = $('.navigation li.dropdown');
