@@ -762,6 +762,12 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  .profile_container {
+    max-width: 120px;
+    max-height: 120px;
+    height: 100%;
+  }
+
   .main-slider .slide-content .btn-box a {
     padding: 10px;
   }

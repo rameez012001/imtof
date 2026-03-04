@@ -9869,3 +9869,28 @@ footer .imtof-dates span {
 .carousel-area1 .owl-nav,.carousel-area1 .owl-dots {
   display: none;
 }
+
+.profile_info{
+  gap: 10px;
+  text-align:left;
+  margin: 20px 0;
+}
+.profile_container{
+  max-width: 170px;
+  max-height: 170px;
+  height: 100%;
+}
+.profile_container img{
+  border-radius: 100px;
+  height: 100%;
+  border: 2px solid orange;
+}
+.speaker_name{
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+}
+.speaker_desgination{
+  font-size: 12px;
+  line-height: 1.1;
+}
