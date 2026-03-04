@@ -762,6 +762,12 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  .main-slider .slide-content .btn-box a {
+    padding: 10px;
+  }
+  .main-slider.style1 .slide-content .text {
+    font-size: 18px;
+  }
   .btn-one {
     line-height: 10px;
   }
@@ -2260,6 +2266,9 @@
 
   .adpopup_img img {
     max-height: 180px;
+  }
+  .carousel-area1 {
+    padding: 20px;
   }
 }
 
