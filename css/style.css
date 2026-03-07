@@ -302,7 +302,7 @@ li {
   position: relative;
   display: block;
   margin-top: -5px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 .sec-title p {
@@ -2539,7 +2539,7 @@ select:focus {
 .art-area {
   position: relative;
   display: block;
-  padding: 120px 0 70px;
+  padding: 60px 0 70px;
   background-attachment: fixed;
   background: url(../images/pattern/pattern-bg2.png) var(--dark-blue);
   background-repeat: repeat;
@@ -9695,7 +9695,7 @@ footer .imtof-dates span {
   width: 47%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -43%);
   border-radius: 5px;
   text-align: center;
   z-index: 10000;
@@ -9744,7 +9744,8 @@ footer .imtof-dates span {
 .carousel-track {
   display: flex;
   flex-direction: column;
-  animation: carousel-loop 6s linear infinite;
+  animation: carousel-loop 15s linear infinite;
+  animation-delay: 2s;
 }
 
 .carousel-track:hover {
@@ -9764,10 +9765,10 @@ footer .imtof-dates span {
 
 @keyframes carousel-loop {
   0% {
-    transform: translateY(0);
+    transform: translateY(15%);
   }
   100% {
-    transform: translateY(-43%);
+    transform: translateY(-70%);
   }
 }
 
@@ -9806,49 +9807,7 @@ footer .imtof-dates span {
   max-width: 350px;
   padding-right: 10px;
 }
-/* ================= HERO RESPONSIVE (NO STACK) ================= */
 
-@media (max-width: 1024px) {
-  .hero {
-    height: 220px;
-  }
-
-  .hero-banner-content {
-    max-width: 55%;
-  }
-
-  .hero-banner-brand {
-    max-width: 35%;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero {
-    height: 190px;
-  }
-
-  .hero-banner-content {
-    max-width: 60%;
-  }
-
-  .hero-banner-brand {
-    max-width: 30%;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-    height: 160px;
-  }
-
-  .hero-banner-content {
-    max-width: 65%;
-  }
-
-  .hero-banner-brand {
-    max-width: 28%;
-  }
-}
 .carousel-area1 {
   padding: 50px 20px;
   border-radius: 2px;
@@ -9869,11 +9828,23 @@ footer .imtof-dates span {
 .carousel-area1 .owl-nav,.carousel-area1 .owl-dots {
   display: none;
 }
+#technical_speaker .about-style1-content {
+  position: relative;
+  display: block;
+  padding: 30px 0;
+}
+
+#technical_speaker .about-style1-content .sec-title {
+  padding-bottom: 0px;
+}
 
 .profile_info{
   gap: 10px;
   text-align:left;
   margin: 20px 0;
+}
+.profile_info p{
+  margin-bottom: 0;
 }
 .profile_container{
   max-width: 170px;
@@ -9882,6 +9853,7 @@ footer .imtof-dates span {
 }
 .profile_container img{
   border-radius: 100px;
+  width: 100%;
   height: 100%;
   border: 2px solid orange;
 }
@@ -9891,6 +9863,11 @@ footer .imtof-dates span {
   line-height: 1;
 }
 .speaker_desgination{
-  font-size: 12px;
-  line-height: 1.1;
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 800;
+}
+.speaker_company{
+  font-size: 16px;
+  font-weight: bold;
 }
