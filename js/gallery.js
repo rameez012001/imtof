@@ -385,6 +385,174 @@ const data = {
       link: "#",
       buttonText: "IMTOF 2026",
     },
+    {
+      img: "images/publicity/h38.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h39.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h40.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h41.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h42.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h43.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h44.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h45.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h46.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h47.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/h48.jpeg",
+      title: "Hoardings",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto10.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto11.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto12.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto13.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto14.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto15.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto16.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto17.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto18.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto19.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto20.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto21.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
+    {
+      img: "images/publicity/auto22.jpeg",
+      title: "Auto",
+      subtitle: "Chennai",
+      link: "#",
+      buttonText: "IMTOF 2026",
+    },
   ],
 };
 
@@ -406,7 +574,7 @@ data.gallery.forEach((item) => {
   <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
       <div class="single-art-box">
           <div class="img-holder">
-              <img src="${item.img}" alt="${item.title}">
+              <img src="${item.img}" alt="${item.title} loading='lazy' ">
               <div class="overlay-content">
                   <div class="title">
                       <h3><a href="#">${item.title}<br>${item.subtitle}</a></h3>
