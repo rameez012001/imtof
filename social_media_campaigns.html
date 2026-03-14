@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>IMTOF| Hotel & Accomodation</title>
+    <title>IMTOF - International Machine Tools Exhibition - IMTOF</title>
+
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,21 +12,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '859282986196768');
-        fbq('track', 'PageView');
-    </script>
 
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=859282986196768&ev=PageView&noscript=1" /></noscript>
@@ -44,6 +30,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom-animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -51,6 +39,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/logos/favicon.png">
     <link rel="icon" type="image/png" href="images/logos/favicon.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/logos/favicon.png" sizes="16x16">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -60,10 +54,10 @@
 
 
 
-
 </head>
 
 <body>
+
 
     <div class="boxed_wrapper">
 
@@ -71,11 +65,11 @@
             <i class="fa fa-whatsapp my-float"></i>
         </a>
 
+
         <div class="preloader"></div>
 
-        <!--Start main header Style4-->
-        <header class="main-header main-header-style4">
-
+        <!-- main header -->
+        <header class="main-header">
             <!--Start header top -->
             <div class="header-top">
                 <div class="container">
@@ -83,8 +77,8 @@
                         <!--Top Left-->
                         <div class="header-top-left">
                             <ul>
-                                <li><a href="./images/pdf/floor_plan_imtof.pdf" download="#">Floor Plan</a></li>
-                                <li><a href="./booking_form.html">Space Booking Form</a></li>
+                                <li><a href="./images/pdf/floor_plan_imtof.pdf">Floor Plan</a></li>
+                                <li><a href="images/pdf/tariff_imtof.pdf">Participation Charges</a></li>
                             </ul>
                         </div>
                         <!--Top Right-->
@@ -97,10 +91,12 @@
                     </div>
                 </div>
             </div>
+            <!--End header top -->
 
+            <!--Start Header upper -->
             <div class="header-upper">
                 <div class="container clearfix">
-                    <div class="outer-box outer-background clearfix">
+                    <div class="outer-box clearfix">
                         <div class="header-upper-left clearfix float-left">
                             <div class="logo d-flex">
                                 <div class="imtof">
@@ -131,7 +127,22 @@
 
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li><a href="index.html">Home</a></li>
+                                            <li class="dropdown current"><a href="#">Home</a>
+                                                <!-- <ul>
+                                            <li><a href="index.html">Home Page 01</a></li>
+                                            <li><a href="index-2.html">Home Page 02</a></li>
+                                            <li><a href="index-3.html">Home Page 03</a></li>
+                                            <li><a href="index-4.html">Home Page 04</a></li>
+                                            <li class="dropdown"><a href="#">Header Styles</a>
+                                                <ul>
+                                                    <li><a href="index.html">Header Style One</a></li>
+                                                    <li><a href="index-2.html">Header Style Two</a></li>
+                                                    <li><a href="index-3.html">Header Style Three</a></li>
+                                                    <li><a href="index-4.html">Header Style Four</a></li>
+                                                </ul>    
+                                            </li>
+                                        </ul> -->
+                                            </li>
                                             <li class="dropdown"><a href="#">About Us</a>
                                                 <ul>
                                                     <li><a href="about.html">About the organizer</a></li>
@@ -145,7 +156,7 @@
                                                     <li><a href="images/pdf/floor_plan_imtof.pdf">Floor Plan</a></li>
                                                     <li class="dropdown"><a
                                                             href="./blentrix_registration.html">International
-                                                            Technical Summit</a>
+                                                            Conference</a>
                                                         <ul>
                                                             <li><a href="./blentrix_registration.html">Blentrix
                                                                     Registration</a></li>
@@ -160,6 +171,7 @@
                                                             </li>
                                                         </ul>
                                                     </li>
+
                                                     <li class="dropdown"><a href="./skill_connect.html">Skill
                                                             Connect</a>
                                                         <ul>
@@ -201,6 +213,32 @@
                                                         </ul>
                                                     </li>
 
+                                                    <li class="dropdown"><a href="./skill_connect.html">Skill
+                                                            Connect</a>
+                                                        <ul>
+                                                            <li><a href="./skill_connect.html">Skill Connect</a></li>
+                                                            <li><a href="./skill_connect_reg_form.html">Skill Connect
+                                                                    Registration</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown"><a
+                                                            href="./blentrix_registration.html">International
+                                                            Technical Summit</a>
+                                                        <ul>
+                                                            <li><a href="./blentrix_registration.html">Blentrix
+                                                                    Registration</a></li>
+                                                            <li><a href="./skillconnect/blentrix_brochure.pdf">Technical
+                                                                    Summit Brochure</a>
+                                                            </li>
+                                                            <li><a href="./skillconnect/tech_speakers.pdf">Technical
+                                                                    Summit
+                                                                    Speakers</a></li>
+                                                            <li><a href="./technical_tarrifs.html">Technical Sponsorship
+                                                                    Tarrif</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+
                                                     <li><a href="fact_sheet.html">Visitor Timings</a></li>
                                                     <li><a href="#">Newsletter</a></li>
 
@@ -214,6 +252,9 @@
                                                             Options</a></li>
                                                     <li><a href="./publicity_campaigns.html">Publicity Campaign -
                                                             Sponsors</a></li>
+                                                    <li><a href="./social_media_campaigns.html">Social Media
+                                                            Campaigns</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown"><a href="#">Downloads</a>
@@ -226,24 +267,21 @@
                                         </ul>
                                     </div>
                                 </nav>
-
-
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <!--End Header Upper Style4-->
+            <!--End Header Upper-->
 
             <!--Sticky Header-->
             <div class="sticky-header">
                 <div class="container">
                     <div class="clearfix">
                         <!--Logo-->
-                        <div class="logo float-left">
-                            <a href="index.html" class="img-responsive"><img src="images/logos/logo.png"
-                                    alt="IMTOF Logo" title=""></a>
+                        <div class="logo float-left"><a href="index.html" class="img-responsive"><img
+                                    src="images/logos/logo.png" alt="IMTOF Logo" title=""></a>
                         </div>
                         <!--Right Col-->
                         <div class="right-col float-right">
@@ -251,7 +289,7 @@
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li class="dropdown current"><a href="#">Home</a></li>
                                         <li class="dropdown"><a href="#">About Us</a>
                                             <ul>
                                                 <li><a href="about.html">About the organizer</a></li>
@@ -269,14 +307,12 @@
                                                     <ul>
                                                         <li><a href="./blentrix_registration.html">Blentrix
                                                                 Registration</a></li>
-                                                        <li><a href="./skillconnect/blentrix_brochure.pdf">Technical
-                                                                Summit Brochure</a>
+                                                        <li><a href="./technical_session.html">Technical Session</a>
                                                         </li>
-                                                        <li><a href="./skillconnect/tech_speakers.pdf">Technical Summit
-                                                                Speakers</a></li>
-                                                        <li><a href="./technical_tarrifs.html">Technical Sponsorship
-                                                                Tarrif</a>
+                                                        <li><a href="./skillconnect/tech_speakers.pdf">Technical
+                                                                Speakers</a>
                                                         </li>
+                                                        <li><a href="./technical_tarrifs.html">Technical Tarrif</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="dropdown"><a href="./skill_connect.html">Skill Connect</a>
@@ -306,13 +342,11 @@
                                                     <ul>
                                                         <li><a href="./blentrix_registration.html">Blentrix
                                                                 Registration</a></li>
-                                                        <li><a href="./skillconnect/blentrix_brochure.pdf">Technical
-                                                                Summit Brochure</a>
+                                                        <li><a href="./technical_session.html">Technical Session</a>
                                                         </li>
-                                                        <li><a href="./skillconnect/tech_speakers.pdf">Technical Summit
+                                                        <li><a href="./skillconnect/tech_speakers.pdf">Technical
                                                                 Speakers</a></li>
-                                                        <li><a href="./technical_tarrifs.html">Technical Sponsorship
-                                                                Tarrif</a>
+                                                        <li><a href="./technical_tarrifs.html">Technical Tarrif</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -335,8 +369,10 @@
                                             <ul>
                                                 <li><a href="images/pdf/sponsorship_imtof.pdf">Sponsorship Options</a>
                                                 </li>
-                                                <li><a href="./publicity_campaigns.html">Publicity Campaign - Sponsors</a></li>
-                                            <li><a href="./social_media_campaigns.html">Social Media Campaigns</a></li>
+                                                <li><a href="./publicity_campaigns.html">Publicity Campaign -
+                                                        Sponsors</a></li>
+                                                <li><a href="./social_media_campaigns.html">Social Media Campaigns</a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="#">Downloads</a>
@@ -355,417 +391,141 @@
             </div>
             <!--End Sticky Header-->
         </header>
-        <hr>
-        <!--End main header Style4-->
-        <h3 class="text-center mb-3">Hotels & Accomodation</h3>
-        <!--Start About Style1 Area-->
-        <section class="imtof_custom" id="technical_tariff">
+
+        <!--Start Art Area-->
+        <section class="art-area">
             <div class="container">
                 <div class="row">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th>SL. No.</th>
-                                    <th>Hotel in Chennai</th>
-                                    <th>Star Rating</th>
-                                    <th>Location</th>
-                                    <th>Distance from Venue to Hotel</th>
-                                    <th>Rates / Tariff + Taxes</th>
-                                    <th>Address</th>
-                                    <th>Contact Number</th>
-                                    <th>Mail ID</th>
-                                    <th>Website</th>
-
-                                </tr>
-                            </thead>
-                            <tbody>
-
-                                <tr>
-                                    <td>1</td>
-                                    <td>Hotel NK Grand Park</td>
-                                    <td>3 star</td>
-                                    <td>Pallavaram</td>
-                                    <td>8 kms</td>
-                                    <td>between Rs.3000/- to Rs.6500/-</td>
-                                    <td>8, Acharya Tulsi Rd, Cantonment, Pallavaram, Chennai,</td>
-                                    <td>70920 49999, 84280 55555</td>
-                                    <td>fom@grandparknk.com, info@grandparknk.com</td>
-                                    <td><a href="https://www.grandparknk.com" target="_blank">www.grandparknk.com</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>2</td>
-                                    <td>Avenue Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Pallavaram</td>
-                                    <td>8 kms</td>
-                                    <td>between Rs. 3,500 to 5,250/-</td>
-                                    <td>115, Pammal Main Rd, Pallavaram, Chennai,</td>
-                                    <td>91766 22331</td>
-                                    <td>avenuehotel@marshotels.net</td>
-                                    <td><a href="https://www.marshotels.net" target="_blank">www.marshotels.net</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>3</td>
-                                    <td>Saibala Grand Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Pallavaram</td>
-                                    <td>8 kms</td>
-                                    <td>between Rs. 2,800 to Rs. 5,000/-</td>
-                                    <td>6, Pammal Main Rd, Pallavaram, Chennai,</td>
-                                    <td>044 2264 2264, 98417 00055 / 66</td>
-                                    <td>saibalagrand@gmail.com, info@saibalagrand.com</td>
-                                    <td><a href="https://www.saibalagrand.com" target="_blank">www.saibalagrand.com</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>4</td>
-                                    <td>Hotel Arunaa Inn</td>
-                                    <td>3 star</td>
-                                    <td>Pammal</td>
-                                    <td>8 kms</td>
-                                    <td>between Rs.2300/- to Rs.4500/-</td>
-                                    <td>1st Floor, 196, Pammal Main Rd, Pasumpon Nagar, Pammal,</td>
-                                    <td>9941353333, 04422480003, 04422480005</td>
-                                    <td>arunaainn@gmail.com</td>
-                                    <td><a href="https://www.arunaainn.com" target="_blank">www.arunaainn.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>5</td>
-                                    <td>De Castle Inn</td>
-                                    <td>3 star</td>
-                                    <td>Porur</td>
-                                    <td>6 kms</td>
-                                    <td>between Rs. 1800/- to Rs. 4500/- (750/- extra bed)</td>
-                                    <td>Parvathi Ammal Street, Plot No. 3, Annamalai Avenue, Sakthi Nagar</td>
-                                    <td>97108 35511</td>
-                                    <td>info@decastleinn.com</td>
-                                    <td><a href="https://www.decastleinn.com" target="_blank">www.decastleinn.com</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>6</td>
-                                    <td>Hablis Chennai Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Guindy</td>
-                                    <td>4 kms</td>
-                                    <td>between 5,500 to Rs.6800</td>
-                                    <td>19 GST Road, Guindy</td>
-                                    <td>89398 84889, 044 4023 5555</td>
-                                    <td>sales@hablis.com, dos@hablis.com</td>
-                                    <td><a href="https://www.hablis.com" target="_blank">www.hablis.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>7</td>
-                                    <td>Lemon Tree Hotel - Shimona</td>
-                                    <td>4 star</td>
-                                    <td>Manapakkam</td>
-                                    <td>500 mtrs</td>
-                                    <td>between 6,500/- to Rs. 8,500/-</td>
-                                    <td>31/3, Mount Poonamallee High Road, Manapakkam, Chennai,</td>
-                                    <td>96000 54665, 96000 58767</td>
-                                    <td>sales1.cn@lemontreehotels.com</td>
-                                    <td><a href="http://www.lemontreehotels.com"
-                                            target="_blank">www.lemontreehotels.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>8</td>
-                                    <td>Lemon Tree Hotel - Guindy</td>
-                                    <td>4 star</td>
-                                    <td>Guindy</td>
-                                    <td>4 kms</td>
-                                    <td>between 6,500/- to Rs. 8,500/-</td>
-                                    <td>72, Sardar Patel Road, Guindy</td>
-                                    <td>96000 54665, 96000 58767</td>
-                                    <td>sales1.cn@lemontreehotels.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>9</td>
-                                    <td>Grand Residence</td>
-                                    <td>3 star</td>
-                                    <td>Porur</td>
-                                    <td>6 kms</td>
-                                    <td>between Rs.3,200 to Rs. 6,800/-</td>
-                                    <td>No.85, 86, Arcot Rd, Karambakkam, Rajeswari Nagar, Porur,</td>
-                                    <td>9962503011, 044 2476 7611</td>
-                                    <td>reserve@hotelgrandresidence.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>10</td>
-                                    <td>V7 Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Porur</td>
-                                    <td>6 kms</td>
-                                    <td>between Rs. 3,000 to Rs.5,000/-</td>
-                                    <td>3/191, Mount Poonamallee Rd, Venugopal Nagar, Porur</td>
-                                    <td>80567 11777, 8056955777</td>
-                                    <td>reservations@v7hotel.com</td>
-                                    <td><a href="https://www.v7hotel.com" target="_blank">www.v7hotel.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>11</td>
-                                    <td>Hotel Chennai Le Palace</td>
-                                    <td>3 star</td>
-                                    <td>Porur</td>
-                                    <td>6 kms</td>
-                                    <td>between Rs. 5,000 to Rs. 7500/-</td>
-                                    <td>5/9, Arcot Rd, Karambakkam, Devi Nagar, Porur</td>
-                                    <td>7401671811, 9551214038</td>
-                                    <td>fom@hotelchennailepalace.com, reservation@hotelchennailepalace.com</td>
-                                    <td><a href="https://www.hotelchennailepalace.com"
-                                            target="_blank">www.hotelchennailepalace.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>12</td>
-                                    <td>Le Royal Méridien</td>
-                                    <td>5 star</td>
-                                    <td>St. Thomas Mount</td>
-                                    <td>7 kms</td>
-                                    <td>between 10,500 to Rs. 15,000/-</td>
-                                    <td>GST road, St. Thomas Mount</td>
-                                    <td>96770 73806, 73050 38211</td>
-                                    <td>sales5@leroyalmeridien-chennai.com, gmsec@leroyalmeridien-chennai.com,
-                                        kaustubh.sur@leroyalmeridienchennai.com</td>
-                                    <td><a href="http://www.lemeridien.com/chennai"
-                                            target="_blank">www.lemeridien.com/chennai</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>13</td>
-                                    <td>Radisson Blu Hotel & Suites GRT Chennai</td>
-                                    <td>5 star</td>
-                                    <td>Guindy</td>
-                                    <td>4 kms</td>
-                                    <td>12,300/- onwards</td>
-                                    <td>531, Grand Southern Trunk Rd, Parangi Malai, Palavanthangal, Chennai</td>
-                                    <td>80622 10101, 97 8981 0101</td>
-                                    <td>reservations@radissongrt.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>14</td>
-                                    <td>Hilton Chennai</td>
-                                    <td>5 star</td>
-                                    <td>Guindy</td>
-                                    <td>4 kms</td>
-                                    <td>between Rs. 11,500 to Rs.32,500</td>
-                                    <td>124, 1, Jawaharlal Nehru Salai, Poomagal Nagar, Guindy, Chennai,</td>
-                                    <td>044 3085 5555</td>
-                                    <td>maahi-salesadm@hilton.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>15</td>
-                                    <td>Feathers A Radha Hotel</td>
-                                    <td>5 star</td>
-                                    <td>Manapakkam</td>
-                                    <td>1 km</td>
-                                    <td>between Rs. 11,000 to 19,000/-</td>
-                                    <td>4/129, Mount Poonamallee Rd, Manapakkam,</td>
-                                    <td>7823977813, 044 6677 6969</td>
-                                    <td>bdm@feathershotels.com</td>
-                                    <td><a href="https://www.radhahotels.com" target="_blank">www.radhahotels.com</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>16</td>
-                                    <td>Ramada Plaza</td>
-                                    <td>5 star</td>
-                                    <td>Guindy</td>
-                                    <td>4 kms</td>
-                                    <td>between Rs.8700 /- to Rs. 12k</td>
-                                    <td>36, Sardar Patel Rd, near Ashok Leyland, Venkta Puram, Guindy,</td>
-                                    <td>044 4565 3333</td>
-                                    <td>afnb@ramadaplazachennai.co, info@ramadaplazachennai.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>17</td>
-                                    <td>Hyatt Regency</td>
-                                    <td>5 star</td>
-                                    <td>Teynampet</td>
-                                    <td>9 kms</td>
-                                    <td>between 9,500/- to Rs. 10,800/-</td>
-                                    <td>365, Anna Salai, Rostrevor Garden, Teynampet, Chennai,</td>
-                                    <td>9176411188</td>
-                                    <td>jyoti.raj@hyatt.com, chenn-s&m-all@hyatt.com</td>
-                                    <td><a href="https://www.hyatt.com" target="_blank">www.hyatt.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>18</td>
-                                    <td>Novotel Chennai</td>
-                                    <td>5 star</td>
-                                    <td>Nandanam - Chamiers Road</td>
-                                    <td>8 kms</td>
-                                    <td>between Rs. 8900/- to Rs. 11,000/-</td>
-                                    <td>City Centre, near Boat Club Road, &, Nandanam</td>
-                                    <td>044 2430 2333</td>
-                                    <td></td>
-                                    <td><a href="https://all.accor.com/hotel/9636/index.en.shtml"
-                                            target="_blank">all.accor.com/hotel/9636/index.en.shtml</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>19</td>
-                                    <td>Trident Chennai</td>
-                                    <td>5 star</td>
-                                    <td>Guindy</td>
-                                    <td>6 kms</td>
-                                    <td>between Rs. 7500/- to 8000/-</td>
-                                    <td>Guindy</td>
-                                    <td>9500463508, 97518 63508</td>
-                                    <td>abdul.wahab@oberoigroup.com</td>
-                                    <td><a href="https://www.oberoihotels.com" target="_blank">www.oberoihotels.com</a>
-                                    </td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>20</td>
-                                    <td>ANT Biz Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Nandambakkam</td>
-                                    <td>500 mtrs</td>
-                                    <td>between Rs.2,000 to Rs. 4,500/-</td>
-                                    <td>Above A2B restaurant - Near Chennai Trade Centre</td>
-                                    <td>9514571234, 8489024596</td>
-                                    <td>mail@aalabizautomators.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>21</td>
-                                    <td>Radha Regent Hotel</td>
-                                    <td>3 star</td>
-                                    <td>Arumbakkam</td>
-                                    <td>7 kms</td>
-                                    <td>between Rs.5,500/- to 7,500/-</td>
-                                    <td>Jawaharlal Nehru Road</td>
-                                    <td>9941903059, 8939849641</td>
-                                    <td>asm@radharegent.com, reservations@radharegent.com</td>
-                                    <td><a href="https://www.sarovarhotels.com"
-                                            target="_blank">www.sarovarhotels.com</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>22</td>
-                                    <td>Cozy Inn</td>
-                                    <td>Service Apartments</td>
-                                    <td>Nungambakkam</td>
-                                    <td>11 kms</td>
-                                    <td>between 2500 to 9000</td>
-                                    <td>1, Nageshwara Rd, Nungambakkam, Chennai</td>
-                                    <td>98847 09781, 99401 32259</td>
-                                    <td>cozyinn_chennai@yahoo.com</td>
-                                    <td><a href="https://www.cozyserviceapartments.in"
-                                            target="_blank">www.cozyserviceapartments.in</a></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>23</td>
-                                    <td>Happy Homes Service Apts.</td>
-                                    <td>Service Apartments</td>
-                                    <td>Ekkatuthangal</td>
-                                    <td>3 kms</td>
-                                    <td>single occupancy Rs. 1600/-, double occupancy Rs. 2,000/-, 2bhk flat 5 to 7
-                                        persons Rs. 5500/per day</td>
-                                    <td>Ekkatuthangal</td>
-                                    <td>96555 17676, 4448635060</td>
-                                    <td>happyhomesapartments@gmail.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td>24</td>
-                                    <td>VRJ Residency Inn</td>
-                                    <td>2 star</td>
-                                    <td>Nandambakkam</td>
-                                    <td>500 mtrs</td>
-                                    <td>Rooms Rs. 2,500/-</td>
-                                    <td>82, Ramar Koil St, Nandambakkam, Chennai</td>
-                                    <td>98415 11909, 81222 27639</td>
-                                    <td>vrjresidency@gmail.com</td>
-                                    <td></td>
-
-                                </tr>
-
-                            </tbody>
-                        </table>
+                    <div class="col-xl-12">
+                        <div class="top">
+                            <div class="sec-title">
+                                <p>Shorts & Reels</p>
+                                <div class="big-title">
+                                    <h1>Shorts & Reels</h1>
+                                </div>
+                            </div>
+                            <div class="view-more-button">
+                                <a class="btn-one" href="publicity_campaigns.html">View More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!--Start footer Style2 area-->
-        <footer class="footer-style2-area chnage-bg-style">
-            <div class="layer-outer-bg" style="background-image:url(images/parallax-background/footer-style4-bg.jpg);">
+            <div class="container art-container">
+                <div class="row masonary-layout">
+
+                    <!-- Short 1 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/b-PCqT9jjEs?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=b-PCqT9jjEs"
+                                title="YouTube Short 1" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 2 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/qOSEnu_izdQ?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=qOSEnu_izdQ"
+                                title="YouTube Short 2" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 3 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/W8YBWb8WvO8?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=W8YBWb8WvO8"
+                                title="YouTube Short 3" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 4 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/rPLh6jETl0g?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=rPLh6jETl0g"
+                                title="YouTube Short 4" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 5 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/p_XFKdV9ZQ4?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=p_XFKdV9ZQ4"
+                                title="YouTube Short 5" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 6 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/quCobjJ5TZQ?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=quCobjJ5TZQ"
+                                title="YouTube Short 6" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Short 7 -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="short-video-box">
+                            <iframe
+                                src="https://www.youtube.com/embed/fAfeCF7BETI?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1&loop=1&playlist=fAfeCF7BETI"
+                                title="YouTube Short 7" frameborder="0"
+                                allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+        </section>
+        <!--End Art Area-->
+
+
+        <!--Start footer area-->
+        <footer class="footer-area">
             <div class="footer">
                 <div class="container">
                     <div class="row">
                         <!--Start single footer widget-->
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="single-footer-widget clr-white marbtm50">
+                            <div class="single-footer-widget marbtm50">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="images/logos/logo_1.png" alt="IMTOF Logo"></a>
+                                    <a href="index.html"><img src="images/logos/imtof_logo.png" alt="IMTOF Logo"></a>
                                 </div>
-                                <div class="text"><b>International Machine Tools Fair</b> <br>2 - 6 April 2026 <br>
+                                <div class="text"><br><b>International Machine Tools Fair</b> <br>2 - 6 April 2026 <br>
                                     Chennai Trade Center, Chennai, India</div>
                             </div>
                         </div>
                         <!--End single footer widget-->
                         <!--Start single footer widget-->
                         <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="single-footer-widget clr-white marbtm50">
+                            <div class="single-footer-widget marbtm50">
                                 <div class="title">
-                                    <h3>Extra :-</h3>
+                                    <h3>Extras</h3>
                                 </div>
                                 <ul class="social-links">
-                                    <li><a href="https://twitter.com/IMTOF2024">Twitter</a></li>
-                                    <li><a href="https://youtube.com/@IMTOF">YouTube</a></li>
+                                    <!-- <li><a href="https://twitter.com/IMTOF2024">Twitter</a></li> -->
+                                    <li><a href="http://www.youtube.com/@IMTOF">YouTube</a></li>
                                     <li><a href="https://www.instagram.com/internationalmachinetoolsfair/">Instagram</a>
                                     </li>
+                                    <li><a href="#">Linkedin</a></li>
                                     <li><a href="https://www.facebook.com/imtof/">Facebook</a></li>
                                 </ul>
                             </div>
@@ -773,9 +533,9 @@
                         <!--End single footer widget-->
                         <!--Start single footer widget-->
                         <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="single-footer-widget clr-white">
+                            <div class="single-footer-widget">
                                 <div class="title">
-                                    <h3>Contacts :-</h3>
+                                    <h3>Contacts</h3>
                                 </div>
                                 <div class="contact-us">
                                     <p>New no 3, First Floor,<br>
@@ -794,51 +554,29 @@
                         <!--End single footer widget-->
                         <!--Start single footer widget-->
                         <div class="col-xl-2 col-lg-8 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="single-footer-widget clr-white opening-hours-box pdtop50">
+                            <div class="single-footer-widget opening-hours-box pdtop50">
                                 <div class="title">
-                                    <h3>Open Hours :-</h3>
+                                    <h3>Event Hours</h3>
                                 </div>
                                 <div class="opening-hours">
-                                    <p>2nd - 6th April 2026 <br> 9.30 am–6.00 pm</p>
-                                </div>
-                            </div>
-                            <div class="single-footer-widget clr-white follow-sociallinks-widget-box">
-                                <div class="title">
-                                    <h3>Follow Us :-</h3>
-                                </div>
-                                <div class="footer-social-links">
-                                    <ul class="social-links-style1">
-                                        <li>
-                                            <a href="https://www.facebook.com/imtof/"><i class="fa fa-facebook"
-                                                    aria-hidden="true"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/IMTOF2024"><i class="fa fa-twitter"
-                                                    aria-hidden="true"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto: admin@imtof.in"><i class="fa fa-envelope"
-                                                    aria-hidden="true"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://youtube.com/@IMTOF"><i class="fa fa-youtube-play"
-                                                    aria-hidden="true"></i></a>
-                                        </li>
-                                    </ul>
+                                    <p> 9.30 am–6.00 pm</p>
+                                    <div class="text imtof-dates"><span id="date2">02</span><span
+                                            id="date3">03</span><span id="date4">04</span><span
+                                            id="date5">05</span><span id="date6">06</span>April 2026</div>
                                 </div>
                             </div>
                         </div>
                         <!--End single footer widget-->
                         <!--Start single footer widget-->
                         <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="single-footer-widget clr-white pdtop50">
+                            <div class="single-footer-widget pdtop50">
                                 <div class="title">
-                                    <h3>Quick Link :-</h3>
+                                    <h3>Quick Link</h3>
                                 </div>
                                 <ul class="quick-links">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="./index.html">Home</a></li>
                                     <li><a href="./booking_form.html">Space Booking</a></li>
-                                    <li><a href="./contact.html">Contact Us</a></li>
+                                    <li><a href="./contact.html">Contact Us </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -846,15 +584,24 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom-style2">
+            <div class="footer-bottom">
                 <div class="container">
-                    <div class="copyright-text text-center">
-                        <p>© Copyright IMTOF, All Rights Reserved</p>
+                    <div class="outer-box">
+                        <div class="footer-bottom-left">
+                            <div class="text">
+                                <p><a href="#">Privacy Policy</a> </p>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-right">
+                            <div class="copyright-text">
+                                <p>© Copyright IMTOF, All Rights Reserved</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </footer>
-        <!--End footer Style2 area-->
+        <!--End footer area-->
 
     </div>
 
@@ -862,6 +609,8 @@
     <button class="scroll-top scroll-to-target" data-target="html">
         <span class="icon-angle"></span>
     </button>
+
+
 
     <script src="js/jquery.js"></script>
     <script src="js/appear.js"></script>
@@ -879,9 +628,6 @@
     <script src="js/validation.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/aos.js"></script>
-
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
-    <script src="js/map-script.js"></script>
 
     <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
     <script src="assets/timepicker/timePicker.js"></script>
@@ -901,6 +647,7 @@
     <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="js/main-slider-script.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
 
     <!-- thm custom script -->
@@ -909,6 +656,7 @@
     <script src="js/script.js"></script>
     <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="./js/gallery.js"></script>
 </body>
 
 </html>
